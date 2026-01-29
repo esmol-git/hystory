@@ -48,3 +48,12 @@ textarea.input {
 	resize: vertical;
 	padding: 0px 0px;
 }
+
+// Текст ошибок валидации
+[data-fls-form-error] {
+	color: #d14343;
+	font-size: 13px;
+	line-height: 1.4;
+	margin-top: 6px;
+	display: block;
+}
